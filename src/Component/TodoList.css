@@ -1,0 +1,66 @@
+body{
+    /* border: 2px solid red; */
+    background-image: url("./bgimg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+form{
+    /* border: 2px solid red; */
+    width: 680px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+form input{
+    /* border: 2px solid black; */
+    width: 580px;
+    height: 35px;
+    border-radius: 5px;
+    border-style: none;
+    padding-left: 10px;
+}
+form button{
+    width: 60px;
+    height: 40px;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+}
+.list{
+    /* border: 2px solid red; */
+    width: 650px;
+    height: 450px;
+    background: #000000c5;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.list li {
+/* border: 2px solid red; */
+width: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 15%;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding-top: 10px;
+    gap: 77%;
+}
+
